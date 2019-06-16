@@ -1,0 +1,3 @@
+/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/edit_cache.dir
+/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/rebuild_cache.dir
+/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/paddle_edgeboard.dir

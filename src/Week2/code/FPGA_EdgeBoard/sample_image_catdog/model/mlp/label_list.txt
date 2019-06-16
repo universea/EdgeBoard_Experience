@@ -1,0 +1,10 @@
+0:bank-card
+1:biz-card
+2:cat
+3:dog
+4:medic
+5:ouyee
+6:receipt
+7:rode-fee
+8:taxi-ticket
+9:cmb

@@ -1,0 +1,536 @@
+The system is: Linux - 4.9.0-xilinx-v2017.4 - aarch64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/3.6.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/3.6.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e4cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e4cc.dir/build.make CMakeFiles/cmTC_7e4cc.dir/build
+make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e4cc.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7e4cc.dir/testCCompiler.c.o   -c /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7e4cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e4cc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7e4cc.dir/testCCompiler.c.o  -o cmTC_7e4cc 
+make[1]: Leaving directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50820/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50820.dir/build.make CMakeFiles/cmTC_50820.dir/build
+make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50820.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_50820.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_50820
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50820.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_50820.dir/CMakeCCompilerABI.c.o  -o cmTC_50820  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/lto-wrapper
+Target: aarch64-xilinx-linux
+Configured with: ../../../../../../work-shared/gcc-linaro-6.2-r2016.11/git/configure --build=x86_64-linux --host=aarch64-xilinx-linux --target=aarch64-xilinx-linux --prefix=/usr --exec_prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/libexec --datadir=/usr/share --sysconfdir=/etc --sharedstatedir=/com --localstatedir=/var --libdir=/usr/lib --includedir=/usr/include --oldincludedir=/usr/include --infodir=/usr/share/info --mandir=/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/petalinux-yocto/yocto_sdk_full_2017.4/build/tmp/sysroots/zynqmp-generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-xilinx-linux- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-sysroot=/ --with-build-sysroot=/scratch/petalinux-yocto/yocto_sdk_full_2017.4/build/tmp/sysroots/zynqmp-generic --with-gxx-include-dir=/usr/include/c++/6.2.1 --without-long-double-128 --disable-static --enable-nls --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 6.2.1 20161016 (Linaro GCC 6.2-2016.11) 
+COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/:/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../../aarch64-xilinx-linux/bin/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/6.2.1/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50820' '-mlittle-endian' '-mabi=lp64'
+ /usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTo1nhm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_50820 /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crt1.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtbegin.o -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1 -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1 -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../.. -L/usr/lib/aarch64-xilinx-linux/6.2.1 CMakeFiles/cmTC_50820.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtend.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50820' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_50820/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_50820.dir/build.make CMakeFiles/cmTC_50820.dir/build]
+  ignore line: [make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_50820.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_50820.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_50820]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50820.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_50820.dir/CMakeCCompilerABI.c.o  -o cmTC_50820  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/lto-wrapper]
+  ignore line: [Target: aarch64-xilinx-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-linaro-6.2-r2016.11/git/configure --build=x86_64-linux --host=aarch64-xilinx-linux --target=aarch64-xilinx-linux --prefix=/usr --exec_prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/libexec --datadir=/usr/share --sysconfdir=/etc --sharedstatedir=/com --localstatedir=/var --libdir=/usr/lib --includedir=/usr/include --oldincludedir=/usr/include --infodir=/usr/share/info --mandir=/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/petalinux-yocto/yocto_sdk_full_2017.4/build/tmp/sysroots/zynqmp-generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-xilinx-linux- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-sysroot=/ --with-build-sysroot=/scratch/petalinux-yocto/yocto_sdk_full_2017.4/build/tmp/sysroots/zynqmp-generic --with-gxx-include-dir=/usr/include/c++/6.2.1 --without-long-double-128 --disable-static --enable-nls --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.2.1 20161016 (Linaro GCC 6.2-2016.11) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/:/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../../aarch64-xilinx-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/6.2.1/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50820' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTo1nhm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_50820 /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crt1.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtbegin.o -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1 -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1 -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../.. -L/usr/lib/aarch64-xilinx-linux/6.2.1 CMakeFiles/cmTC_50820.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtend.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crtn.o]
+    arg [/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTo1nhm.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_50820] ==> ignore
+    arg [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crt1.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crti.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1] ==> dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1]
+    arg [-L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1] ==> dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1]
+    arg [-L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../..] ==> dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../..]
+    arg [-L/usr/lib/aarch64-xilinx-linux/6.2.1] ==> dir [/usr/lib/aarch64-xilinx-linux/6.2.1]
+    arg [CMakeFiles/cmTC_50820.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1] ==> [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1]
+  collapse library dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1] ==> [/usr/lib/aarch64-xilinx-linux/6.2.1]
+  collapse library dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/aarch64-xilinx-linux/6.2.1] ==> [/usr/lib/aarch64-xilinx-linux/6.2.1]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1;/usr/lib/aarch64-xilinx-linux/6.2.1;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7e66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7e66.dir/build.make CMakeFiles/cmTC_b7e66.dir/build
+make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7e66.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_b7e66.dir/feature_tests.c.o   -c /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b7e66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7e66.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b7e66.dir/feature_tests.c.o  -o cmTC_b7e66 
+make[1]: Leaving directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16ee1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16ee1.dir/build.make CMakeFiles/cmTC_16ee1.dir/build
+make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16ee1.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_16ee1.dir/feature_tests.c.o   -c /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_16ee1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16ee1.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_16ee1.dir/feature_tests.c.o  -o cmTC_16ee1 
+make[1]: Leaving directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af8fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af8fe.dir/build.make CMakeFiles/cmTC_af8fe.dir/build
+make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af8fe.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_af8fe.dir/feature_tests.c.o   -c /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_af8fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af8fe.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_af8fe.dir/feature_tests.c.o  -o cmTC_af8fe 
+make[1]: Leaving directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b9ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b9ac.dir/build.make CMakeFiles/cmTC_2b9ac.dir/build
+make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b9ac.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_2b9ac.dir/testCXXCompiler.cxx.o -c /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_2b9ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b9ac.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_2b9ac.dir/testCXXCompiler.cxx.o  -o cmTC_2b9ac 
+make[1]: Leaving directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_160b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_160b1.dir/build.make CMakeFiles/cmTC_160b1.dir/build
+make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_160b1.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_160b1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_160b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_160b1.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_160b1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_160b1  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/lto-wrapper
+Target: aarch64-xilinx-linux
+Configured with: ../../../../../../work-shared/gcc-linaro-6.2-r2016.11/git/configure --build=x86_64-linux --host=aarch64-xilinx-linux --target=aarch64-xilinx-linux --prefix=/usr --exec_prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/libexec --datadir=/usr/share --sysconfdir=/etc --sharedstatedir=/com --localstatedir=/var --libdir=/usr/lib --includedir=/usr/include --oldincludedir=/usr/include --infodir=/usr/share/info --mandir=/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/petalinux-yocto/yocto_sdk_full_2017.4/build/tmp/sysroots/zynqmp-generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-xilinx-linux- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-sysroot=/ --with-build-sysroot=/scratch/petalinux-yocto/yocto_sdk_full_2017.4/build/tmp/sysroots/zynqmp-generic --with-gxx-include-dir=/usr/include/c++/6.2.1 --without-long-double-128 --disable-static --enable-nls --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 6.2.1 20161016 (Linaro GCC 6.2-2016.11) 
+COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/:/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../../aarch64-xilinx-linux/bin/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/6.2.1/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_160b1' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN5s5UI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_160b1 /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crt1.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtbegin.o -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1 -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1 -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../.. -L/usr/lib/aarch64-xilinx-linux/6.2.1 CMakeFiles/cmTC_160b1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtend.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_160b1' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_160b1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_160b1.dir/build.make CMakeFiles/cmTC_160b1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_160b1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_160b1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_160b1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_160b1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_160b1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_160b1  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/lto-wrapper]
+  ignore line: [Target: aarch64-xilinx-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-linaro-6.2-r2016.11/git/configure --build=x86_64-linux --host=aarch64-xilinx-linux --target=aarch64-xilinx-linux --prefix=/usr --exec_prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/libexec --datadir=/usr/share --sysconfdir=/etc --sharedstatedir=/com --localstatedir=/var --libdir=/usr/lib --includedir=/usr/include --oldincludedir=/usr/include --infodir=/usr/share/info --mandir=/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/scratch/petalinux-yocto/yocto_sdk_full_2017.4/build/tmp/sysroots/zynqmp-generic --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-xilinx-linux- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-sysroot=/ --with-build-sysroot=/scratch/petalinux-yocto/yocto_sdk_full_2017.4/build/tmp/sysroots/zynqmp-generic --with-gxx-include-dir=/usr/include/c++/6.2.1 --without-long-double-128 --disable-static --enable-nls --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.2.1 20161016 (Linaro GCC 6.2-2016.11) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/:/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../../aarch64-xilinx-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/:/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/6.2.1/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_160b1' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN5s5UI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_160b1 /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crt1.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtbegin.o -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1 -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1 -L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../.. -L/usr/lib/aarch64-xilinx-linux/6.2.1 CMakeFiles/cmTC_160b1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtend.o /usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crtn.o]
+    arg [/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/6.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccN5s5UI.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_160b1] ==> ignore
+    arg [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crt1.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crti.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1] ==> dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1]
+    arg [-L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1] ==> dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1]
+    arg [-L/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../..] ==> dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../..]
+    arg [-L/usr/lib/aarch64-xilinx-linux/6.2.1] ==> dir [/usr/lib/aarch64-xilinx-linux/6.2.1]
+    arg [CMakeFiles/cmTC_160b1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1] ==> [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1]
+  collapse library dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../../aarch64-xilinx-linux/6.2.1] ==> [/usr/lib/aarch64-xilinx-linux/6.2.1]
+  collapse library dir [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/aarch64-xilinx-linux/6.2.1] ==> [/usr/lib/aarch64-xilinx-linux/6.2.1]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/aarch64-xilinx-linux/6.2.1;/usr/lib/aarch64-xilinx-linux/6.2.1;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19e5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19e5e.dir/build.make CMakeFiles/cmTC_19e5e.dir/build
+make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19e5e.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_19e5e.dir/feature_tests.cxx.o -c /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_19e5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19e5e.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_19e5e.dir/feature_tests.cxx.o  -o cmTC_19e5e 
+make[1]: Leaving directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ced3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ced3d.dir/build.make CMakeFiles/cmTC_ced3d.dir/build
+make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ced3d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_ced3d.dir/feature_tests.cxx.o -c /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ced3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ced3d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ced3d.dir/feature_tests.cxx.o  -o cmTC_ced3d 
+make[1]: Leaving directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec638/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec638.dir/build.make CMakeFiles/cmTC_ec638.dir/build
+make[1]: Entering directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ec638.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_ec638.dir/feature_tests.cxx.o -c /home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ec638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec638.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ec638.dir/feature_tests.cxx.o  -o cmTC_ec638 
+make[1]: Leaving directory '/home/root/workspace/sample/sample_image_catdog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
