@@ -13,9 +13,9 @@
 * 12V2A适配器一个，接头为2P间距为3.81的接线端子
 * MicroUSB线一条
 
-![EdgeBoard外包装](src/Week1/src/Week1/外包装.png)
+![EdgeBoard外包装](src/Week1/外包装.png)
 
-![开箱](src/Week1/src/Week1/开箱.png)
+![开箱](src/Week1/开箱.png)
 
 EdgeBoard板子做工不错，按照官网资料，他分为主板和电源板两部分，加上散热器后组合后的长宽高为120&times;80&times;50。板子具体的硬件资源就不过多介绍了，官方目前也没公布具体硬件框图。
 
@@ -39,13 +39,13 @@ EdgeBoard板子做工不错，按照官网资料，他分为主板和电源板�
 
       
 
-      ![串口方式](src/Week1/src/Week1/Xshell配置串口方式.png)
+      ![串口方式](src/Week1/Xshell配置串口方式.png)
       	
 
-      ​       ![串口参数](src/Week1/src/Week1/Xshell串口参数.png)
+      ​       ![串口参数](src/Week1/Xshell串口参数.png)
 3. 将接线端子连接到电源插座，接通电源适配器，可以看到电源灯亮起，风扇传来了怒吼，这个风扇实测转速为6000转，长时间调试时候，噪音略微明显。上电后，可以看到串口终端内显示出了boot数据。
 
-     ![上电](src/Week1/src/Week1/上电.png)
+     ![上电](src/Week1/上电.png)
    ```
    Xilinx Zynq MP First Stage Boot Loader 
    Release 2017.4   Apr 23 2019  -  13:19:54
@@ -114,7 +114,7 @@ EdgeBorad已经配置好了SSH终端以及SMB文件共享服务器，也可参�
    ```
 
 2. 使用串口读出来的IP,本例中为**169.254.1.162**即可连接上SSH与SMB。本地输入：\\169.254.1.162 即可访问edgeboard文件。Win7系统需要注意一些配置，具体请查看Edgeboard使用说明。
-    ![SMB](src/Week1/src/Week1/SMB.png)
+    ![SMB](src/Week1/SMB.png)
 
 **总结：**环境都配置好了，上手还是很简单，在用户目录下发现存在.xfce4的配置文件，莫非带了图形界面？手头没有DP线，后面会试试。
 
@@ -123,24 +123,24 @@ EdgeBorad已经配置好了SSH终端以及SMB文件共享服务器，也可参�
 Edge的卖点之一，就是支持导入EasyDL生成的模型，EasyDL平台是一个使用几十、几百张图片就能训练出一个效果还不错的模型训练平台，官方宣称，对于不了解深度学习的用户，可以仅仅依靠可视化操作即可完成深度学习训练。
 
 1. 登录EasyDl官网创建物体检测模型  http://ai.baidu.com/easydl/。
-  ![模型创建](src/Week1/src/Week1/创建模型.png)
+  ![模型创建](src/Week1/创建模型.png)
 
 2. 创建训练的数据集，本次测试在百度新闻里抓取了20张包含人脸的图片。
-  ![数据集创建](src/Week1/src/Week1/创建数据集.png)
+  ![数据集创建](src/Week1/创建数据集.png)
 
 3. 数据集标注，Easydl支持在线标注，只需选中图片用鼠标在图片上拉出一个框即可。
-  ![数据集标注](src/Week1/src/Week1/数据标注.png)
+  ![数据集标注](src/Week1/数据标注.png)
 
 4. 数据集标注完成后即可训练模型，由于要测试的模型是基于SSD的目标检测，所以此次选中精度较低模型。（高精度是基于RetinaNet的模型），点击开始训练，大概需要30分钟左右，即可训练完成。
-  ![开始训练](src/Week1/src/Week1/开始训练.png)
+  ![开始训练](src/Week1/开始训练.png)
 
 5. 在线校验模型，训练完成后点击校验模型，可以查看测试模型训练效果。此次发现误识别一个女生为男生，猜测大概是训练集太小，不过人脸识别功能到是没问题。
-  ![校验模型](src/Week1/src/Week1/校验模型.png)
+  ![校验模型](src/Week1/校验模型.png)
 
 6. 模型导出：由于Easydl还没正式发布模型导出功能，因此此次是通过联系后台人员导出的模型。
 
 7. 将Easydl导出的模型，通过SMB传输到EdgeBoard内替换原有的params、model.encrypted：\\169.254.1.162\roothome\workspace\sample\sample_easydl\model
-  ![上传模型](src/Week1/src/Week1/上传模型.png)
+  ![上传模型](src/Week1/上传模型.png)
 
 8. 重新编译模型，步骤如下：
    ```
@@ -153,7 +153,7 @@ Edge的卖点之一，就是支持导入EasyDL生成的模型，EasyDL平台是�
     cmake ..
     make
    ```
-    ![编译](src/Week1/src/Week1/编译.png)
+    ![编译](src/Week1/编译.png)
 9. 编程成功之后，运行预测程序。
    ```
     a、在网络上随意下载一张人物图，修改名字为1.jpg 并替换           \\169.254.1.162\roothome\workspace\sample\sample_easydl\image 内的原有图片。
