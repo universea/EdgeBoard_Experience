@@ -102,7 +102,7 @@ fluid.io.save_inference_model(model_save_dir,['images'],[predict], exe,params_fi
 
 如图所示，在AiStudio的左侧打开模型文件所在的文件夹，下载mlp-model、mlp-params两个文件。
 
-![模型输出](src/Week2/模型输出.png)
+![模型输出](src/W2/模型输出.png)
 
 
 
@@ -130,7 +130,7 @@ fluid.io.save_inference_model(model_save_dir,['images'],[predict], exe,params_fi
 
 2、将AiStudio上导出来的模型放置在model里的mlp文件夹，修改名字为model、params
 
-![model文件夹](src/Week2/modelfolder.png)
+![model文件夹](src/W2/modelfolder.png)
 
 3、新建 CMakeLists.txt
 
@@ -327,17 +327,17 @@ make
 
 修改main文件要预测的图像：
 
-![待预测图像](src/Week2/待预测图像.png)
+![待预测图像](src/W2/待预测图像.png)
 
-![mainedit](src/Week2/mainedit.png)
+![mainedit](src/W2/mainedit.png)
 
 6、修改main文件后重复执行预测，可得结果如下：图像处理时间大概为：0.006秒，预测时间大概为：0.008秒
 
-![result](src/Week2/result.png)
+![result](src/W2/result.png)
 
 7、连续预测10000次所用时间为：23.7168
 
-![result1](src/Week2/result1.png)
+![result1](src/W2/result1.png)
 
 ## 性能对比（连续预测10000次 单位：秒）
 
